@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 from honeybee.model import Model
-from pollination_streamlit_io import get_hbjson, send_hbjson
+from pollination_streamlit_io import get_hbjson
 
 st.header('Send Room data to excel')
 st.info(
